@@ -1,0 +1,30 @@
+.product-card {
+    display: flex;
+    max-width: 60rem;
+}
+
+.product-card--picture {
+    width: 50%;
+}
+.product-card--picture img {
+    width: 100%;
+    max-height: initial;
+    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: initial;
+}
+
+.product-card--info {
+    width: 50%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: initial;
+}
+
+.product-card--info__prduct-title {
+    margin: 2rem 0;
+}
+
+.prices-wrapper {
+    margin-bottom: 2rem;
+}
